@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="coolbar-games-old-sdk">
+      <UniqueIdentifier>{791defed-d6e5-4657-a840-d43440abd427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0000000000000000000000000000000000">
+      <UniqueIdentifier>{d8382e42-e1cf-4f45-a6bd-8c3f04546ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="coolbar-------------------">
+      <UniqueIdentifier>{f00b4b66-ba39-4f30-9ed7-faff0d180b2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\interface\game_sdk_old.c">
+      <Filter>coolbar-games-old-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\saf\Desktop\tool\sdk_all_platform_new11\Golf-QVGA\code\src\CommonLib.c">
+      <Filter>0000000000000000000000000000000000</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\saf\Desktop\tool\sdk_all_platform_new11\Golf-QVGA\code\src\Golf_Resource_Data.c">
+      <Filter>0000000000000000000000000000000000</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\saf\Desktop\tool\sdk_all_platform_new11\Golf-QVGA\code\src\Golf_Screen_Gaming.c">
+      <Filter>0000000000000000000000000000000000</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\saf\Desktop\tool\sdk_all_platform_new11\Golf-QVGA\code\src\Golf_Screen_Logo.c">
+      <Filter>0000000000000000000000000000000000</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\saf\Desktop\tool\sdk_all_platform_new11\Golf-QVGA\code\src\Scratchpad.c">
+      <Filter>0000000000000000000000000000000000</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\saf\Desktop\tool\sdk_all_platform_new11\Golf-QVGA\code\src\SoftWindow.c">
+      <Filter>0000000000000000000000000000000000</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\coolbar-win32-emulator\coolbar-emu.ini" />
+    <None Include="coolbar_addins_application.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="..\src\interface\coolbar-addins-application.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\saf\Desktop\tool\sdk_all_platform_new11\Golf-QVGA\code\inc\CommonLib.h">
+      <Filter>0000000000000000000000000000000000</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\saf\Desktop\tool\sdk_all_platform_new11\Golf-QVGA\code\inc\Golf_Logo.h">
+      <Filter>0000000000000000000000000000000000</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\saf\Desktop\tool\sdk_all_platform_new11\Golf-QVGA\code\inc\Golf_Resource_Data.h">
+      <Filter>0000000000000000000000000000000000</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\saf\Desktop\tool\sdk_all_platform_new11\Golf-QVGA\code\inc\Golf_Screen.h">
+      <Filter>0000000000000000000000000000000000</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\saf\Desktop\tool\sdk_all_platform_new11\Golf-QVGA\code\inc\Golf_Screen_Gaming.h">
+      <Filter>0000000000000000000000000000000000</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\saf\Desktop\tool\sdk_all_platform_new11\Golf-QVGA\code\inc\Scratchpad.h">
+      <Filter>0000000000000000000000000000000000</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\saf\Desktop\tool\sdk_all_platform_new11\Golf-QVGA\code\inc\SoftWindow.h">
+      <Filter>0000000000000000000000000000000000</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

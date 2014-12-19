@@ -1,0 +1,185 @@
+[Language]
+Language=1033
+Description=English. Powered by Yonsm. No rights reserved.
+;FontName=Tahoma
+;FontSize=8
+
+[Text]
+0=Ready.
+1=Ver: %s
+2=Build: %s
+3=Track debug output string.
+4=Copyright (C) 2004 Yonsm.NET. All rights reserved.
+5=View Help
+6=Visit Web Site
+7=Email To Author
+8=Display help content.
+9=Visit Yonsm.reg365.com.
+10=Email to Yonsm@163.com.
+11=Capture: Disabled
+12=Capture: Enabled
+13=Total: %u
+14=Selected: %u
+15=#`Time`Process`Debug String`
+16=Log Files (*.log)`*.log`All Files (*.*)`*.*`
+17=DebugTrack could capture debug srting only at NT platform.
+18=Failed to enable DebugTrack. Probably you have not enough rigths.
+19=Failed to import file %s.
+20=Failed to export file %s.
+21=Failed to cut selected item(s) to clipboard.
+22=Failed to copy selected item(s) to clipboard.
+23=Failed to paste item(s) from clipboard.
+24=Could not find other "%s".
+25=Failed to get process information. Probably the specified process does not exist.
+26=Failed to open help file. Please re-install DebugTrack.
+27=Failed to create shortcut.
+28=Failed to remove shortcut.
+29=Failed to create shortcut. Probably Microsoft Visual Studio is not installed.
+30=Failed to remove shortcut from Microsoft Visual Studio.
+31=Failed to copy DebugTrack C/C++ code to clipboard.
+32=Process Id: %#08X~Module Name: %s~Full Path: %s`13`
+33=Shortcut has been created successfully.
+34=Shortcut has been removed successfully.
+35=Shortcut has been created successfully.~~Be sure that Microsoft Visual Studio 5.x/6.x is not running, otherwise the shortcut may not be saved.~~`
+36=Shortcut has been removed successfully.~~Be sure that Microsoft Visual Studio 5.x/6.x is not running, otherwise the shortcut may not be removed.~~`
+37=DebugTrack C/C++ code has been put to clipboard.
+
+[String]
+5000=Import log file.
+5001=Export log file.
+5002=Save log file automatically.
+5003=Exit the application.
+5004=Import this file.
+5100=Append item manually.
+5101=Cut the selected item(s) and put it to clipboard.
+5102=Copy the selected item(s) and put it to clipboard.
+5103=Paste item(s) from chipboard.
+5104=Delete the selected item(s).
+5105=Clear all items.
+5106=Clear all items automatically.
+5107=Select all items.
+5108=Inverse selection.
+5109=Adjust the index of all items in the current order.
+5110=Sort all items by index.
+5111=Sort all items by time.
+5112=Sort all items by process.
+5113=Sort all items by debug string.
+5114=Find specified item.
+5115=Repeat last find.
+5116=Goto specified item.
+5117=View process information associated with the current item.
+5200=Show or hide toolbar.
+5201=Show or hide status bar.
+5202=Show or hide grid lines.
+5203=Scroll to the last item automatically.
+5204=Show or hide splash screen on start up.
+5205=Put the main window at the top of all the other windows.
+5206=Minimize the main window to system tray.
+5207=Set view font.
+5208=Contains commands for selecting language.
+5209=Switch to built-in language.
+5210=Switch to this language.
+5300=Toggle capture status.
+5301=Edit capture filter.
+5400=Display help content.
+5401=Create shortcut on Desktop.
+5402=Create shortcut on Start Menu.
+5403=Create shortcut on Program Menu.
+5404=Create shortcut on Quick Launch Toolbar.
+5405=Create shortcut on Microsoft Visual Studio Tools Menu.
+5406=Put DebugTrack C/C++ code to clipboard.
+5407=Display program information, version number and copyright.
+
+[500]
+|0=&File
+5000=&Import...	Ctrl+O
+5001=&Export...	Ctrl+S
+5002=&Auto Save...
+5003=E&xit
+|1=&Edit
+5100=App&end...	Insert
+5101=Cu&t	Ctrl+X
+5102=&Copy	Ctrl+C
+5103=&Paste	Ctrl+V
+5104=&Delete	Del
+5105=C&lear	Ctrl+Del
+5106=A&uto Clear...
+5107=Select &All	Ctrl+A
+5108=Select &Inverse	Ctrl+I
+|1|13=S&ort
+5109=&Adjust Index
+5110=By &Index
+5111=By Ti&me
+5112=By P&rocess
+5113=By De&bug String
+5114=&Find...	Ctrl+F
+5115=Find &Next	F3
+5116=&Goto...	Ctrl+G
+5117=&View Process information...
+|2=&View
+5200=&Toolbar
+5201=Stat&us Bar
+5202=&Grid Lines
+5203=&Auto Scroll
+5204=Show &Splash
+5205=Always O&n Top
+5206=&Minimize To Tray	Ctrl+M
+5207=&Font...	Ctrl+T
+|2|13=&Language
+5209=&Default
+|3=&Capture
+5300=&Capture	F5
+5301=F&ilter...	F4
+|4=&Help
+5400=&Help Content
+|4|2=Create &Shortcut
+5401=On Des&ktop
+5402=On Sta&rt Menu
+5403=On &Program Menu
+5404=On &Quick Launch Toolbar
+5405=On Visual Studio &Tools Menu
+5406=&DebugTrack Code
+5407=&About DebugTrack...
+
+[120]
+1200=Preview
+
+[130]
+1303=Export
+1300=Export all items.
+1301=Export the selected item(s).
+[140]
+1400=Auto Save
+1600=Save items automatically when the count is large than:
+
+[150]
+0=Append Item
+1500=Please input &text that you want to append:
+1=&Append
+2=&Close
+
+[160]
+0=Auto Clear
+1600=&Clear all items when the count is large than:
+1=&OK
+2=&Cancel
+
+[170]
+0=Find
+1700=Please input the &text that you want to find:
+1=&Find
+2=&Close
+
+[180]
+0=Goto
+1800=Please input the item &index that you want to go:
+1=&Goto
+2=&Close
+
+[190]
+0=Filter
+1900=Please input the text that you want to include or exclude:
+1901=&Include:
+1902=&Exclude:
+1=&OK
+2=&Cancel

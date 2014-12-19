@@ -1,0 +1,10 @@
+PackageURL = http://~/PIS/SG.jar
+AppSize = 10240
+AppName = ‚³‚ß‚ª‚ß
+AppVer = 1.05
+AppParam = 
+AppClass = SG.SG
+SPsize = 10240
+UseNetwork = http
+LastModified = Mon, 05 Feb 2001 09:00:00
+KvmVer = 

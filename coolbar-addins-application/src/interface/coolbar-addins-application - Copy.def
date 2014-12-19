@@ -1,0 +1,33 @@
+;------------------------------------------
+; coolbar dll application definition file for Win32
+;------------------------------------------
+
+LIBRARY
+
+EXPORTS
+
+;------------------------------------------
+; coolbar dll application definition file for Win32
+;------------------------------------------
+
+LIBRARY
+
+EXPORTS
+game_reg  
+Game_SetSysCall
+CoolBarDemo_Enter
+CoolBarDemo_Exit
+RussBlock_main
+RussBlock_exit
+HitMole_enter
+HitMole_exit
+MemoryBox_enter
+MemoryBox_exit
+ONFF_enter
+ONFF_exit
+CatLoveDog_enter
+CatLoveDog_exit
+SameGame_enter
+SameGame_exit
+OZC_enter
+OZC_exit
